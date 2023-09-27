@@ -14,9 +14,7 @@ import { __ } from '@wordpress/i18n';
 import { useBlockProps, InspectorControls } from '@wordpress/block-editor';
 import { 
 	PanelBody,
-	ToggleControl, 
-	HorizontalRule, 
-	RangeControl
+	ToggleControl
  } from '@wordpress/components';
 
 /**
@@ -37,13 +35,31 @@ import './editor.scss';
  */
 import metadata from './block.json';
 import { Curve } from './components/curve';
+import { TopCurveSettings } from './components/topCurveSettings';
+import { BottomCurveSettings } from './components/bottomCurveSettings';
 
 export default function Edit(props) {
 	const {className, ...blockProps} = useBlockProps();
 	return (
 		<>
 		<section className={`${className} alignfull`} {...blockProps}>
-			{props.attributes.enableTopCurve && <Curve />}
+			{props.attributes.enableTopCurve && 
+			<Curve 
+				color={props.attributes.topColor}
+				flipX={props.attributes.topFlipX}
+				flipY={props.attributes.topFlipY}
+				height={props.attributes.topHeight} 
+				width={props.attributes.topWidth} 
+			/>}
+			{props.attributes.enableBottomCurve && 
+			<Curve 
+				isBottom
+				color={props.attributes.bottomColor}
+				flipX={props.attributes.bottomFlipX}
+				flipY={props.attributes.bottomFlipY}
+				height={props.attributes.bottomHeight} 
+				width={props.attributes.bottomWidth} 
+			/>}
 		</section>
 			<InspectorControls>
 				<PanelBody title={__("Top curve", metadata.textdomain)}>
@@ -58,30 +74,28 @@ export default function Edit(props) {
 							</span>
 					</div>
 					{props.attributes.enableTopCurve && 
-					<>
-					<HorizontalRule />
-						<RangeControl
-							min={100}
-							max={300}
-							value={props.attributes.topWidth || 100}
-							onChange={(newValue) => {
-								props.setAttributes({
-									topWidth : parseInt(newValue)
-								})
-							}}
-							label={__("Width", metadata.textdomain)} />
-
-						<RangeControl
-							min={0}
-							max={200}
-							value={props.attributes.topHeight}
-							onChange={(newValue) => {
-								props.setAttributes({
-									topHeight : parseInt(newValue)
-								})
-							}}
-							label={__("Height", metadata.textdomain)} />
-					</>
+						<TopCurveSettings 
+							attributes={props.attributes} 
+							setAttributes={props.setAttributes}
+						/>
+					}
+				</PanelBody>
+				<PanelBody title={__("Bottom curve", metadata.textdomain)}>
+					<div style={{display:"flex"}}>
+						<ToggleControl onChange={(isChecked) => {
+							props.setAttributes({
+								enableTopCurve : isChecked
+							})
+						}} checked={props.attributes.enableTopCurve} />
+							<span>
+							{__("Enable bottom curve", metadata.textdomain)}
+							</span>
+					</div>
+					{props.attributes.enableBottomCurve && 
+						<BottomCurveSettings 
+							attributes={props.attributes} 
+							setAttributes={props.setAttributes}
+						/>
 					}
 				</PanelBody>
 			</InspectorControls>

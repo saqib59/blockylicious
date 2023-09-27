@@ -5,6 +5,11 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-blockylicious-curvy {
+.wp-block-blockylicious-curvy{
 	position: relative;
+ }
+.wp-block.wp-block-blockylicious-curvy {
+    max-width: none !important;
+	margin-right: -8px;
+	margin-left: -8px;
 }
