@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps, InspectorControls } from '@wordpress/block-editor';
+import { useBlockProps, InspectorControls, InnerBlocks } from '@wordpress/block-editor';
 import { 
 	PanelBody,
 	ToggleControl
@@ -51,6 +51,8 @@ export default function Edit(props) {
 				height={props.attributes.topHeight} 
 				width={props.attributes.topWidth} 
 			/>}
+
+			<InnerBlocks />
 			{props.attributes.enableBottomCurve && 
 			<Curve 
 				isBottom
@@ -84,9 +86,9 @@ export default function Edit(props) {
 					<div style={{display:"flex"}}>
 						<ToggleControl onChange={(isChecked) => {
 							props.setAttributes({
-								enableTopCurve : isChecked
+								enableBottomCurve : isChecked
 							})
-						}} checked={props.attributes.enableTopCurve} />
+						}} checked={props.attributes.enableBottomCurve} />
 							<span>
 							{__("Enable bottom curve", metadata.textdomain)}
 							</span>
