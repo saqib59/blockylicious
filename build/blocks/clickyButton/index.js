@@ -2,6 +2,48 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/blocks/clickyButton/assets/clicky.svg":
+/*!***************************************************!*\
+  !*** ./src/blocks/clickyButton/assets/clicky.svg ***!
+  \***************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: function() { return /* binding */ SvgClicky; }
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path, _path2, _path3, _path4, _path5;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+var SvgClicky = function SvgClicky(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    viewBox: "0 0 375 375"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M375.004 187.5c0 103.559-83.945 187.504-187.496 187.504C83.949 375.004.004 291.059.004 187.5.004 83.95 83.949.004 187.508.004c103.55 0 187.496 83.945 187.496 187.496"
+  })), _path2 || (_path2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#d2d2d2",
+    d: "M.023 190.742v-.02.02m0-.129v-.035.035m0-.136v-.036.036m-.007-.137v-.043.043m0-.137v-.047.047m0-.144v-.032.032m-.004-.227v-.05.05m0-.129v-.058.058m0-.137v-.066.066m0-.144v-.067.067m0-.137v-.074.074m-.008-.144v-.075.075m0-.145v-.082.082m0-.137v-.117.117m0-.16v-.129.13m0-.18v-.094.094m0-.145v-.094.094m0-.152v-.086.086m0-.145v-.086.086m0-.144v-.086.086m0-.145v-.101.101m0-.144v-.145.145"
+  })), _path3 || (_path3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#545454",
+    d: "M153.594 371.883C67.266 356.109 1.563 281.262.024 190.743v-.302c-.008-.039-.008-.066-.008-.101v-.313c0-.058 0-.129-.004-.195v-.621c0-.027 0-.043-.008-.07V187.5c0-3.375.094-6.727.266-10.055L138.066 74.871l101.586 232.512-86.058 64.5"
+  })), _path4 || (_path4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#fff",
+    d: "m251.02 144.559-9.836.05.242 29.223h-8.516V136.18h-23.113v37.726h-8.524l-.535-46.285-22.586.043v46.242h-8.523V75.11l-22.984-.765-.208 124.8h-8.515v-19.472h-8.25l.035-8.336-8.668-.441v-8.524l-15.977.492v16.446l-.164 8.457 8.68.058v16.86l8.524.171v15.93l8.515 1.11v15.835l8.516 1.278v15.933l8.515 1.098v15.84l8.532 1.2v25.483h86.316v-25.05l8.524-.266v-50.742h7.101v-69.457l-7.101.094v-8.582"
+  })), _path5 || (_path5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#737373",
+    d: "M232.125 135.73v-8.44h-31.637v46.241h8.524v-37.726h23.113v37.652h8.516v-29.215h9.586v-8.512h-18.102m18.102 137.407h8.523v-51.008h-8.523v51.008m0-128.895v8.524h8.523v-8.524h-8.523m8.523 8.524v69.363h8.508v-69.363h-8.508m-138.496 9.23v8.524h8.516v-8.524h-8.516m1.055 59.524v17.035h8.523V221.52h-8.523m8.523 17.113v17.031h8.516v-17.031h-8.516m8.516 17.031v17.04h8.515v-17.04h-8.515m-25.551-51.184v17.04h8.512v-17.04h-8.512m-8.52-17.03v17.03h8.52v-17.03h-8.52m0-8.516v-16.672h-8.52v25.187h8.52v-8.515m16.164-25.454h-16.093v8.516h16.093v-8.516M241.71 298.188h-86.315v-25.485h-8.532v34h94.848v-8.48h8.516v-25.086h-8.516v25.05m-104.578-127.41h-8.25v8.516h8.25v19.477h8.515V74.234h-8.515v96.543m40.234-52.004v-44.8h-8.523v99.558h8.523V127.29h23.121v-8.516h-23.12M145.73 66.203v8.531h23.114v-8.53H145.73"
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAwIDM3NSAzNzUiIGhlaWdodD0iMjQiIHZlcnNpb249IjEuMCI+PHBhdGggZD0iTTM3NS4wMDQgMTg3LjVjMCAxMDMuNTU5LTgzLjk0NSAxODcuNTA0LTE4Ny40OTYgMTg3LjUwNEM4My45NDkgMzc1LjAwNC4wMDQgMjkxLjA1OS4wMDQgMTg3LjUuMDA0IDgzLjk1IDgzLjk0OS4wMDQgMTg3LjUwOC4wMDRjMTAzLjU1IDAgMTg3LjQ5NiA4My45NDUgMTg3LjQ5NiAxODcuNDk2Ii8+PHBhdGggZmlsbD0iI2QyZDJkMiIgZD0iTS4wMjMgMTkwLjc0MnYtLjAyLjAybTAtLjEyOXYtLjAzNS4wMzVtMC0uMTM2di0uMDM2LjAzNm0tLjAwNy0uMTM3di0uMDQzLjA0M20wLS4xMzd2LS4wNDcuMDQ3bTAtLjE0NHYtLjAzMi4wMzJtLS4wMDQtLjIyN3YtLjA1LjA1bTAtLjEyOXYtLjA1OC4wNThtMC0uMTM3di0uMDY2LjA2Nm0wLS4xNDR2LS4wNjcuMDY3bTAtLjEzN3YtLjA3NC4wNzRtLS4wMDgtLjE0NHYtLjA3NS4wNzVtMC0uMTQ1di0uMDgyLjA4Mm0wLS4xMzd2LS4xMTcuMTE3bTAtLjE2di0uMTI5LjEzbTAtLjE4di0uMDk0LjA5NG0wLS4xNDV2LS4wOTQuMDk0bTAtLjE1MnYtLjA4Ni4wODZtMC0uMTQ1di0uMDg2LjA4Nm0wLS4xNDR2LS4wODYuMDg2bTAtLjE0NXYtLjEwMS4xMDFtMC0uMTQ0di0uMTQ1LjE0NSIvPjxwYXRoIGZpbGw9IiM1NDU0NTQiIGQ9Ik0xNTMuNTk0IDM3MS44ODNDNjcuMjY2IDM1Ni4xMDkgMS41NjMgMjgxLjI2Mi4wMjQgMTkwLjc0M3YtLjMwMmMtLjAwOC0uMDM5LS4wMDgtLjA2Ni0uMDA4LS4xMDFWMTkwLjAyN2MwLS4wNTggMC0uMTI5LS4wMDQtLjE5NXYtLjYyMWMwLS4wMjcgMC0uMDQzLS4wMDgtLjA3VjE4Ny41YzAtMy4zNzUuMDk0LTYuNzI3LjI2Ni0xMC4wNTVMMTM4LjA2NiA3NC44NzFsMTAxLjU4NiAyMzIuNTEyLTg2LjA1OCA2NC41Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0ibTI1MS4wMiAxNDQuNTU5LTkuODM2LjA1LjI0MiAyOS4yMjNoLTguNTE2VjEzNi4xOGgtMjMuMTEzdjM3LjcyNmgtOC41MjRsLS41MzUtNDYuMjg1LTIyLjU4Ni4wNDN2NDYuMjQyaC04LjUyM1Y3NS4xMWwtMjIuOTg0LS43NjUtLjIwOCAxMjQuOGgtOC41MTV2LTE5LjQ3MmgtOC4yNWwuMDM1LTguMzM2LTguNjY4LS40NDF2LTguNTI0bC0xNS45NzcuNDkydjE2LjQ0NmwtLjE2NCA4LjQ1NyA4LjY4LjA1OHYxNi44Nmw4LjUyNC4xNzF2MTUuOTNsOC41MTUgMS4xMXYxNS44MzVsOC41MTYgMS4yNzh2MTUuOTMzbDguNTE1IDEuMDk4djE1Ljg0bDguNTMyIDEuMnYyNS40ODNoODYuMzE2di0yNS4wNWw4LjUyNC0uMjY2di01MC43NDJoNy4xMDF2LTY5LjQ1N2wtNy4xMDEuMDk0di04LjU4MiIvPjxwYXRoIGZpbGw9IiM3MzczNzMiIGQ9Ik0yMzIuMTI1IDEzNS43M3YtOC40NGgtMzEuNjM3djQ2LjI0MWg4LjUyNHYtMzcuNzI2aDIzLjExM3YzNy42NTJoOC41MTZ2LTI5LjIxNWg5LjU4NnYtOC41MTJoLTE4LjEwMk0yNTAuMjI3IDI3My4xMzdoOC41MjN2LTUxLjAwOGgtOC41MjN2NTEuMDA4TTI1MC4yMjcgMTQ0LjI0MnY4LjUyNGg4LjUyM3YtOC41MjRoLTguNTIzTTI1OC43NSAxNTIuNzY2djY5LjM2M2g4LjUwOHYtNjkuMzYzaC04LjUwOE0xMjAuMjU0IDE2MS45OTZ2OC41MjRoOC41MTZ2LTguNTI0aC04LjUxNk0xMjEuMzA5IDIyMS41MnYxNy4wMzVoOC41MjNWMjIxLjUyaC04LjUyM00xMjkuODMyIDIzOC42MzN2MTcuMDMxaDguNTE2di0xNy4wMzFoLTguNTE2TTEzOC4zNDggMjU1LjY2NHYxNy4wNGg4LjUxNXYtMTcuMDRoLTguNTE1TTExMi43OTcgMjA0LjQ4djE3LjA0aDguNTEydi0xNy4wNGgtOC41MTJNMTA0LjI3NyAxODcuNDV2MTcuMDNoOC41MnYtMTcuMDNoLTguNTJNMTA0LjI3NyAxNzguOTM0di0xNi42NzJoLTguNTJ2MjUuMTg3aDguNTJ2LTguNTE1TTEyMC40NDEgMTUzLjQ4aC0xNi4wOTN2OC41MTZoMTYuMDkzdi04LjUxNk0yNDEuNzEgMjk4LjE4OGgtODYuMzE1di0yNS40ODVoLTguNTMydjM0aDk0Ljg0OHYtOC40OGg4LjUxNnYtMjUuMDg2aC04LjUxNnYyNS4wNU0xMzcuMTMzIDE3MC43NzdoLTguMjV2OC41MTZoOC4yNXYxOS40NzdoOC41MTVWNzQuMjM0aC04LjUxNXY5Ni41NDNNMTc3LjM2NyAxMTguNzczdi00NC44aC04LjUyM3Y5OS41NThoOC41MjNWMTI3LjI5aDIzLjEyMXYtOC41MTZoLTIzLjEyTTE0NS43MyA2Ni4yMDN2OC41MzFoMjMuMTE0di04LjUzSDE0NS43MyIvPjwvc3ZnPg==");
+
+/***/ }),
+
 /***/ "./src/blocks/clickyButton/edit.js":
 /*!*****************************************!*\
   !*** ./src/blocks/clickyButton/edit.js ***!
@@ -16,13 +58,57 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
+/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__);
 
 
-function Edit() {
+
+
+function Edit(props) {
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)();
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  const postTypes = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_2__.useSelect)(select => {
+    const data = select("core").getEntityRecords("root", "postType", {
+      per_page: -1
+    });
+    return data?.filter(item => item.visibility.show_in_nav_menus && item.visibility.show_ui);
+  });
+  console.log({
+    postTypes
+  });
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InspectorControls, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelBody, {
+    title: "Destination"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.SelectControl, {
+    label: "Type",
+    value: props.attributes.postType,
+    onChange: newValue => {
+      props.setAttributes({
+        postType: newValue
+      });
+    },
+    options: [{
+      label: "Select a post type...",
+      value: ""
+    }, ...(postTypes || []).map(postType => ({
+      label: postType.labels.singular_name,
+      value: postType.slug
+    }))]
+  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps
-  }, "clicky button");
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
+    placeholder: "Label text",
+    value: props.attributes.labelText,
+    allowedFormats: [],
+    multiline: false,
+    onSplit: () => {},
+    onReplace: () => {},
+    onChange: newValue => {
+      props.setAttributes({
+        labelText: newValue
+      });
+    }
+  })));
 }
 
 /***/ }),
@@ -34,12 +120,16 @@ function Edit() {
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
-/* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ "./src/blocks/clickyButton/style.scss");
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./edit */ "./src/blocks/clickyButton/edit.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./save */ "./src/blocks/clickyButton/save.js");
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./block.json */ "./src/blocks/clickyButton/block.json");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
+/* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/blocks/clickyButton/style.scss");
+/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./edit */ "./src/blocks/clickyButton/edit.js");
+/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./save */ "./src/blocks/clickyButton/save.js");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./block.json */ "./src/blocks/clickyButton/block.json");
+/* harmony import */ var _assets_clicky_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/clicky.svg */ "./src/blocks/clickyButton/assets/clicky.svg");
+
 /**
  * Registers a new block provided a unique name and an object defining its behavior.
  *
@@ -62,22 +152,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//import icon from './assets/icon.svg';
+
 
 /**
  * Every block starts by registering a new block type definition.
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)(_block_json__WEBPACK_IMPORTED_MODULE_4__.name, {
+(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.registerBlockType)(_block_json__WEBPACK_IMPORTED_MODULE_5__.name, {
   /**
    * @see ./edit.js
    */
-  edit: _edit__WEBPACK_IMPORTED_MODULE_2__["default"],
+  edit: _edit__WEBPACK_IMPORTED_MODULE_3__["default"],
   /**
    * @see ./save.js
    */
-  save: _save__WEBPACK_IMPORTED_MODULE_3__["default"]
+  save: _save__WEBPACK_IMPORTED_MODULE_4__["default"],
+  icon: (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: _assets_clicky_svg__WEBPACK_IMPORTED_MODULE_6__["default"]
+  })
 });
 
 /***/ }),
@@ -113,6 +206,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "react":
+/*!************************!*\
+  !*** external "React" ***!
+  \************************/
+/***/ (function(module) {
+
+module.exports = window["React"];
+
+/***/ }),
+
 /***/ "@wordpress/block-editor":
 /*!*************************************!*\
   !*** external ["wp","blockEditor"] ***!
@@ -133,6 +236,26 @@ module.exports = window["wp"]["blocks"];
 
 /***/ }),
 
+/***/ "@wordpress/components":
+/*!************************************!*\
+  !*** external ["wp","components"] ***!
+  \************************************/
+/***/ (function(module) {
+
+module.exports = window["wp"]["components"];
+
+/***/ }),
+
+/***/ "@wordpress/data":
+/*!******************************!*\
+  !*** external ["wp","data"] ***!
+  \******************************/
+/***/ (function(module) {
+
+module.exports = window["wp"]["data"];
+
+/***/ }),
+
 /***/ "@wordpress/element":
 /*!*********************************!*\
   !*** external ["wp","element"] ***!
@@ -149,7 +272,7 @@ module.exports = window["wp"]["element"];
   \********************************************/
 /***/ (function(module) {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"blockylicious/clicky-button","version":"0.1.0","title":"Click button","category":"blockylicious","icon":"smiley","description":"A call to action button that links to a particular post or page.","supports":{"html":false},"textdomain":"blockylicious","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js","render":"file:./render.php","parent":["blockylicious/clicky-group"]}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"blockylicious/clicky-button","version":"0.1.0","title":"Click button","category":"blockylicious","icon":"smiley","description":"A call to action button that links to a particular post or page.","supports":{"html":false,"color":{"background":true,"text":true,"link":false,"gradients":true,"enableContrastChecker":true},"spacing":{"padding":true}},"attributes":{"postType":{"type":"string","default":""},"labelText":{"type":"string","default":""},"style":{"type":"object","default":{"color":{"background":"#000000","text":"#FFFFFF"},"spacing":{"padding":{"top":"15px","right":"15px","bottom":"15px","left":"15px"}}}}},"textdomain":"blockylicious","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js","render":"file:./render.php","parent":["blockylicious/clicky-group"]}');
 
 /***/ })
 
