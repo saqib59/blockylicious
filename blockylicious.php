@@ -37,3 +37,20 @@ function create_block_blockylicious_block_init() {
 	register_block_type( __DIR__ . '/build/blocks/clickyButton' );
 }
 add_action( 'init', 'create_block_blockylicious_block_init' );
+
+function convert_custom_properties($value) {
+	$prefix     = 'var:';
+	$prefix_len = strlen($prefix);
+	$token_in   = '|';
+	$token_out  = '--';
+	if (str_starts_with($value, $prefix)) {
+		$unwrapped_name = str_replace(
+			$token_in,
+			$token_out,
+			substr($value, $prefix_len)
+		);
+		$value          = "var(--wp--$unwrapped_name)";
+	}
+
+	return $value;
+}

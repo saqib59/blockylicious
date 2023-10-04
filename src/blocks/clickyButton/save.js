@@ -1,3 +1,3 @@
-export default function Edit(){
-    return <div>clicky group save</div>
+export default function Save(){
+    return null;
 }
