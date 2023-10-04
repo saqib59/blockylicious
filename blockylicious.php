@@ -20,37 +20,47 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
+namespace Blocky;
 
-function create_custom_block_category($categories){
-	array_unshift($categories, [
-		'slug' 	=> 'blockylicious',
-		'title' => 'Blockylicious'
-	]);
-
-	return $categories;
+if(!defined('ABSPATH')){
+	die('Silence is golden');
 }
-function create_block_blockylicious_block_init() {
 
-	add_filter('block_categories_all', 'create_custom_block_category', 10);
-	register_block_type( __DIR__ . '/build/blocks/curvy' );
-	register_block_type( __DIR__ . '/build/blocks/clickyGroup' );
-	register_block_type( __DIR__ . '/build/blocks/clickyButton' );
-}
-add_action( 'init', 'create_block_blockylicious_block_init' );
-
-function convert_custom_properties($value) {
-	$prefix     = 'var:';
-	$prefix_len = strlen($prefix);
-	$token_in   = '|';
-	$token_out  = '--';
-	if (str_starts_with($value, $prefix)) {
-		$unwrapped_name = str_replace(
-			$token_in,
-			$token_out,
-			substr($value, $prefix_len)
-		);
-		$value          = "var(--wp--$unwrapped_name)";
+final class Blockylicious{
+	static function init()
+	{
+		add_action( 'init', function(){
+			add_filter('block_categories_all', function($categories){
+				array_unshift($categories, [
+					'slug' 	=> 'blockylicious',
+					'title' => 'Blockylicious'
+				]);
+			
+				return $categories;
+			});
+			register_block_type( __DIR__ . '/build/blocks/curvy' );
+			register_block_type( __DIR__ . '/build/blocks/clickyGroup' );
+			register_block_type( __DIR__ . '/build/blocks/clickyButton' );
+		} );
 	}
 
-	return $value;
+	static function convert_custom_properties($value) 
+	{
+		$prefix     = 'var:';
+		$prefix_len = strlen($prefix);
+		$token_in   = '|';
+		$token_out  = '--';
+		if (str_starts_with($value, $prefix)) {
+			$unwrapped_name = str_replace(
+				$token_in,
+				$token_out,
+				substr($value, $prefix_len)
+			);
+			$value          = "var(--wp--$unwrapped_name)";
+		}
+	
+		return $value;
+	}
 }
+
+Blockylicious::init();
