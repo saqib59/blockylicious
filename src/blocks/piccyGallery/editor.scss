@@ -16,5 +16,16 @@
             text-transform: uppercase;
             font-size: 10px;
         }
+
+        .piccy-gallery-inner-blocks{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+    }
+    .preview-mode{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
     }
 }
