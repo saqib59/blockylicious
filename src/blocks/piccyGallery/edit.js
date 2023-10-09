@@ -70,8 +70,11 @@ export default function Edit(props){
                     <ToolbarButton  
                         icon={editMode ? <Icon icon="welcome-view-site" /> : <Icon icon="edit" />} 
                         label={editMode ? __("Preview gallery", metadata.textdomain) : __("Edit gallery", metadata.textdomain) } 
-                        onClick={(newValue) => {
-                            setEditMode((prevState) => !prevState)
+                        onClick={ () => {
+                            setEditMode((prevState) => !prevState);
+                            setPreviewModeImage({
+                                imageId: previewModeImage.imageId,
+                            })
                         }} 
                     />
                 </ToolbarGroup>

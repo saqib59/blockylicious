@@ -1,5 +1,8 @@
 <?php
-    $block_wrapper_attributes = get_block_wrapper_attributes();
+    $label_exists = $attributes['labelText'] ?? null;
+    $block_wrapper_attributes = get_block_wrapper_attributes([
+        'style' => 'display: '. ($label_exists ? 'block' : 'none')
+    ]);
     if ($attributes['linkedPost'] ?? null) {
         $post_uri = get_permalink($attributes['linkedPost']);
     }

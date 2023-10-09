@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACI;EACA;EACA;AACJ,C","sources":["webpack://curvy/./src/style.scss"],"sourcesContent":[".blockylicious-low-highlight{\r\n    background-size: 100% 40%;\r\n    background-repeat: no-repeat;\r\n    background-position-y: 90%;\r\n}"],"names":[],"sourceRoot":""}

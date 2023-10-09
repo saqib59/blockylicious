@@ -84,8 +84,11 @@ function Edit(props) {
       icon: "edit"
     }),
     label: editMode ? (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)("Preview gallery", _block_json__WEBPACK_IMPORTED_MODULE_4__.textdomain) : (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)("Edit gallery", _block_json__WEBPACK_IMPORTED_MODULE_4__.textdomain),
-    onClick: newValue => {
+    onClick: () => {
       setEditMode(prevState => !prevState);
+      setPreviewModeImage({
+        imageId: previewModeImage.imageId
+      });
     }
   }))));
 }

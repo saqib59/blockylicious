@@ -17,7 +17,6 @@ export default function Edit(props){
             );
     })
 
-    console.log({postTypes});
     const posts = useSelect((select) => {
         const data = select("core").getEntityRecords(
             "postType",
@@ -29,8 +28,6 @@ export default function Edit(props){
 
         return data;
     }, [props.attributes.postType]);
-
-    console.log({posts});
 
     return (
     <>
